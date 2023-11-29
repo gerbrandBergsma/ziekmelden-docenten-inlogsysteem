@@ -5,7 +5,7 @@ $user = 'root';
 $pass = '';
 $charset = 'utf8mb4';
 $password = 'test';
-
+// 
 $pdo = new PDO("mysql:host=$host;dbname=$db;charset=$charset", $user, $pass);
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
